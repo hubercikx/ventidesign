@@ -155,7 +155,7 @@ body {
 
 .header .svg-header {
   position: absolute;
-  bottom: -1.5em;
+  bottom: -0.8em;
   height: 10%;
   width: 100%;
   -webkit-transform: rotate(180deg);
