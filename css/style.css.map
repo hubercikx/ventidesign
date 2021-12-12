@@ -1,8 +1,12 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AACA,AAAA,CAAC;AACD,CAAC,AAAA,OAAO;AACR,CAAC,AAAA,QAAQ,CAAC;EACT,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACV;;AACD,AAAA,IAAI,CAAC;EACJ,gBAAgB,EAAE,OAAkB;EACpC,WAAW,EAAE,mBAAmB;CAChC",
     "sources": [
-        "../sass/style.scss"
+        "../sass/style.scss",
+        "../sass/_colors.scss",
+        "../sass/_large.scss",
+        "../sass/_medium.scss",
+        "../sass/_small.scss"
     ],
     "names": [],
     "file": "style.css"

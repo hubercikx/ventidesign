@@ -1,3 +1,4 @@
+@import './colors';
 *,
 *::after,
 *::before {
@@ -5,8 +6,11 @@
 	margin: 0;
 	padding: 0;
 }
+body {
+	background-color: rgb(240, 240, 240);
+	font-family: 'Karla', sans-serif;
+}
 
-
-@import './smal';
-@import './medium';
 @import './large';
+@import './medium';
+@import './small';
