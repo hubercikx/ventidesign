@@ -1,16 +1,11 @@
 @media (min-width: 576px) {
 	.header {
-		background-image: url('/img/city-bg-mini.jpg');
+		background-image: url('/img/LogobanerVENTI2.png');
 		.hero-text {
 			font-size: 3.5rem;
 		}
 		.svg-header {
-			position: absolute;
-			bottom: -0.5em;
-			height: 15%;
-			width: 100%;
-			transform: rotate(180deg);
-			overflow: hidden;
+			height: 18%;
 		}
 	}
 }

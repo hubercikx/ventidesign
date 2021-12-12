@@ -32,13 +32,13 @@ body {
 //HEADER
 .header {
 	position: relative;
-	height: 70vh;
+	height: 80vh;
 	width: 100%;
-	background-image: url('/img/city-bg-mini.jpg');
+	background-image: url('/img/LogobanerVENTI2.png');
 	background-size: cover;
 	background-attachment: fixed;
-	background-position: center;
-	z-index: -10;
+	background-position: bottom;
+	z-index: 100;
 	.hero-shadow {
 		position: absolute;
 		top: 0;
@@ -55,14 +55,38 @@ body {
 		align-items: center;
 		text-align: center;
 		height: 100%;
-		color: $orange;
 		font-size: 2rem;
 		text-transform: uppercase;
-		transition: 0.5s;
+		z-index: 1000;
+		h1 {
+			color: $purple;
+			transition: 0.3s;
+		}
+		h1:hover {
+			text-shadow: 0px 0px 4px rgb(204, 68, 204);
+		}
+		.button {
+			border-radius: 10px;
+			background-color: $darker;
+			padding: 0.3em;
+			transition: transform 0.5s;
+			a {
+				text-decoration: none;
+				font-weight: bold;
+				color: $purple;
+				transition: 0.3s;
+			}
+			a:hover {
+				text-shadow: 0px 0px 4px rgb(204, 68, 204);
+			}
+		}
+		.button:hover {
+			transform: scale(1.1);
+		}
 	}
 	.svg-header {
 		position: absolute;
-		bottom: -0.5em;
+		bottom: -1.5em;
 		height: 10%;
 		width: 100%;
 		transform: rotate(180deg);
