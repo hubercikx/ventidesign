@@ -42,7 +42,7 @@ body {
   position: relative;
   height: 80vh;
   width: 100%;
-  background-image: url("/img/LogobanerVENTI2.png");
+  background-image: url("../img/LogobanerVENTI2.png");
   background-size: cover;
   background-attachment: fixed;
   background-position: bottom;
@@ -128,7 +128,7 @@ body {
 
 @media (min-width: 992px) {
   .header {
-    background-image: url("/img/LogobanerVENTI2.png");
+    background-image: url("../img/LogobanerVENTI2.png");
   }
   .header .hero-text {
     font-size: 3.5rem;
@@ -140,7 +140,7 @@ body {
 
 @media (min-width: 768px) {
   .header {
-    background-image: url("/img/LogobanerVENTI2.png");
+    background-image: url("../img/LogobanerVENTI2.png");
   }
   .header .hero-text {
     font-size: 3.5rem;
@@ -152,7 +152,7 @@ body {
 
 @media (min-width: 576px) {
   .header {
-    background-image: url("/img/LogobanerVENTI2.png");
+    background-image: url("../img/LogobanerVENTI2.png");
   }
   .header .hero-text {
     font-size: 3.5rem;
