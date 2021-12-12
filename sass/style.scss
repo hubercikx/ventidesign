@@ -14,6 +14,61 @@ body {
 	background-color: $white;
 	font-family: 'Karla', sans-serif;
 }
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+}
+.section-heading {
+	display: flex;
+	justify-content: center;
+	margin-top: 3em;
+	padding: 2.5em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 3rem;
+	color: $orange;
+}
+//HEADER
+.header {
+	position: relative;
+	height: 70vh;
+	width: 100%;
+	background-image: url('/img/city-bg-mini.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	z-index: -10;
+	.hero-shadow {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(3, 3, 3, 0.8);
+		z-index: -5;
+	}
+	.hero-text {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		height: 100%;
+		color: $orange;
+		font-size: 2rem;
+		text-transform: uppercase;
+		transition: 0.5s;
+	}
+	.svg-header {
+		position: absolute;
+		bottom: -0.5em;
+		height: 10%;
+		width: 100%;
+		transform: rotate(180deg);
+		// overflow: hidden;
+	}
+}
 
 @import './large';
 @import './medium';
