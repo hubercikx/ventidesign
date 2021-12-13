@@ -347,6 +347,7 @@ body {
   position: relative;
   padding: 0.2em 0.5em;
   margin: 0.5em 0;
+  font-weight: 100;
   letter-spacing: 2px;
   color: #ededed;
   overflow: hidden;
