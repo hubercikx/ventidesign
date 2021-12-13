@@ -15,6 +15,29 @@ body {
 	background-color: $white;
 	font-family: 'Karla', sans-serif;
 }
+.scroll-top {
+	position: fixed;
+	bottom: 4.5em;
+	right: -450em;
+	cursor: pointer;
+	z-index: 1000;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+	.fas {
+		transform: scale(4);
+		color: $white;
+		padding: 0.4em;
+		border-radius: 50%;
+		text-align: center;
+		background-color: $darker;
+	}
+}
+.active {
+	right: 4.5em;
+	visibility: visible;
+	opacity: 1;
+}
 .wrapper {
 	margin: 0 auto;
 	width: 100%;
