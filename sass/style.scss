@@ -1,3 +1,4 @@
+@import './animations';
 @import './colors';
 *,
 *::after,
@@ -27,8 +28,8 @@ body {
 	text-transform: uppercase;
 	text-align: center;
 	letter-spacing: 2px;
-	font-size: 4rem;
-	color: $darker;
+	font-size: 3rem;
+	color: $purple;
 }
 .btn-special-animation {
 	position: relative;
@@ -116,7 +117,9 @@ body {
 		.arrow {
 			position: absolute;
 			bottom: 3em;
+			padding: 1em;
 			color: $white;
+			z-index: 100;
 		}
 	}
 	.svg-header {
@@ -150,6 +153,6 @@ body {
 	}
 }
 
-@import './large';
-@import './medium';
 @import './small';
+@import './medium';
+@import './large';
