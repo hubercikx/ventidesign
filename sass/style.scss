@@ -86,14 +86,51 @@ body {
 		text-transform: uppercase;
 		z-index: 100;
 
-		h1 {
+		.heading-title {
+			position: relative;
+			padding: 0.2em 0.5em;
+			margin: 0.5em 0;
+			letter-spacing: 2px;
 			color: $white;
-			transition: 0.3s;
-			z-index: 100;
+			overflow: hidden;
+			transition: 0.5s;
+			cursor: none;
 		}
-		h1:hover {
-			transform: scale(1.01);
-			text-shadow: 0px 0px 6px rgb(204, 68, 204);
+		.heading-title:hover {
+			color: $purple-light;
+			text-shadow: 0 0 50px $purple-light;
+		}
+		.heading-title::before {
+			position: absolute;
+			content: '';
+			top: 0;
+			left: 0;
+			width: 1em;
+			height: 0.8em;
+			border-top: 2px solid $purple;
+			border-left: 2px solid $purple;
+			transition: 0.5s;
+		}
+		.heading-title:hover::before {
+			border-radius: 10px;
+			width: 100%;
+			height: 100%;
+		}
+		.heading-title::after {
+			position: absolute;
+			content: '';
+			bottom: 0;
+			right: 0;
+			width: 1em;
+			height: 0.8em;
+			border-bottom: 2px solid $purple;
+			border-right: 2px solid $purple;
+			transition: 0.5s;
+		}
+		.heading-title:hover::after {
+			border-radius: 10px;
+			width: 100%;
+			height: 100%;
 		}
 		.button-discord {
 			border-radius: 10px;
