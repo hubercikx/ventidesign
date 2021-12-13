@@ -22,12 +22,13 @@ body {
 .section-heading {
 	display: flex;
 	justify-content: center;
-	margin-top: 3em;
+	margin-top: 0.2em;
 	padding: 2.5em;
 	text-transform: uppercase;
+	text-align: center;
 	letter-spacing: 2px;
-	font-size: 3rem;
-	color: $orange;
+	font-size: 4rem;
+	color: $darker;
 }
 .btn-special-animation {
 	position: relative;
@@ -112,6 +113,11 @@ body {
 		.button-discord::before {
 			background-color: $dark;
 		}
+		.arrow {
+			position: absolute;
+			bottom: 3em;
+			color: $white;
+		}
 	}
 	.svg-header {
 		position: absolute;
@@ -127,6 +133,20 @@ body {
 		height: 100%;
 		width: 100%;
 		z-index: -5;
+	}
+}
+//section aboutme
+.about-me {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	height: 50vh;
+	.about-me-text {
+		font-size: 2rem;
+		padding: 0 1em;
 	}
 }
 
