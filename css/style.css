@@ -93,6 +93,13 @@ body {
   z-index: -5;
 }
 
+.header #particles-js {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
 .header .hero-text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -115,7 +122,7 @@ body {
 }
 
 .header .hero-text h1 {
-  color: #b138b1;
+  color: #ededed;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -123,7 +130,7 @@ body {
 .header .hero-text h1:hover {
   -webkit-transform: scale(1.01);
           transform: scale(1.01);
-  text-shadow: 0px 0px 2px #cc44cc;
+  text-shadow: 0px 0px 6px #cc44cc;
 }
 
 .header .hero-text .button-discord {
