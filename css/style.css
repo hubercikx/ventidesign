@@ -279,6 +279,7 @@ body {
 .about-me .about-me-text {
   font-size: 2rem;
   padding: 0 1em;
+  color: #767676;
 }
 
 @media (min-width: 576px) {
