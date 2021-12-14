@@ -353,7 +353,6 @@ body {
   overflow: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  cursor: none;
 }
 
 .header .hero-text .heading-title:hover {
