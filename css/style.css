@@ -437,6 +437,7 @@ body {
 
 .header .svg-header {
   position: absolute;
+  display: none;
   bottom: -0.8em;
   height: 10%;
   width: 100%;
@@ -485,6 +486,7 @@ body {
     font-size: 3.5rem;
   }
   .header .svg-header {
+    display: block;
     height: 18%;
   }
 }
@@ -497,7 +499,7 @@ body {
     font-size: 3.5rem;
   }
   .header .svg-header {
-    height: 23%;
+    height: 17%;
   }
   .about-me .about-me-text {
     font-size: 3rem;
@@ -515,7 +517,7 @@ body {
     font-size: 3.5rem;
   }
   .header .svg-header {
-    height: 23%;
+    height: 17%;
   }
   .about-me .about-me-text {
     font-size: 4rem;
